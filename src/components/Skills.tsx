@@ -52,11 +52,11 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="py-20 bg-white">
+    <section id="skills" className="py-20 bg-black">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Skills & Expertise</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <h2 className="text-4xl font-bold text-white mb-4">Skills & Expertise</h2>
+          <p className="text-xl text-white max-w-3xl mx-auto">
             A comprehensive overview of my technical skills and proficiency levels across 
             various technologies and tools.
           </p>
