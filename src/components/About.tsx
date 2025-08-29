@@ -39,12 +39,8 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center mb-16">
           <div className="space-y-6">
             <p className="text-lg text-gray-700 leading-relaxed">
-              With over 3 years of experience in full-stack development, I specialize in building 
-              modern web applications using React, Node.js, and cloud technologies. I have a passion 
-              for creating user-centric designs that not only look great but also provide exceptional 
-              functionality.
+              I am a passionate software engineer with over 3 years of experience. I have crafted intricate, interactive web applications, robust management systems, and innovative software solutions over the past three years. Through my work, I have had the privilege of collaborating with businesses worldwide, aiding them in enhancing productivity by creating websites, web applications, and software solutions.
             </p>
-            
             <p className="text-lg text-gray-700 leading-relaxed">
               When I'm not coding, you can find me exploring new technologies, contributing to 
               open-source projects, or mentoring aspiring developers. I believe in continuous 
