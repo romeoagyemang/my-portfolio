@@ -17,7 +17,7 @@ const Projects = () => {
       title: 'Task Management App',
       description: 'A collaborative task management application with real-time updates and team collaboration features.',
       image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800',
-      technologies: ['React', 'Firebase', 'Material-UI', 'Socket.io'],
+      technologies: ['Blade', 'PHP', 'Laravel', 'MySQL'],
       liveUrl: 'https://example-tasks.com',
       githubUrl: 'https://github.com/example/tasks',
       date: '2024',
