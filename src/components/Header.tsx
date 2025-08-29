@@ -34,10 +34,10 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 w-full bg-white/90 backdrop-blur-md border-b border-gray-100 z-50 transition-all duration-300">
+    <header className="fixed top-0 w-full bg-black/90 backdrop-blur-md border-b border-black z-50 transition-all duration-300">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          <div className="text-2xl font-bold text-gray-900">
+          <div className="text-2xl font-bold text-white">
             DevSnowden
           </div>
 
@@ -48,7 +48,7 @@ const Header = () => {
                 key={item}
                 onClick={() => scrollToSection(item)}
                 className={`capitalize transition-colors duration-200 hover:text-blue-600 ${
-                  activeSection === item ? 'text-blue-600 font-medium' : 'text-gray-600'
+                  activeSection === item ? 'text-blue-600 font-medium' : 'text-white'
                 }`}
               >
                 {item}
@@ -59,15 +59,15 @@ const Header = () => {
           {/* Social Links */}
           <div className="hidden md:flex items-center space-x-4">
             <a href="https://github.com/romeoagyemang" target="_blank" rel="noopener noreferrer" 
-               className="text-gray-600 hover:text-gray-900 transition-colors duration-200">
+               className="text-white hover:text-gray-900 transition-colors duration-200">
               <Github size={20} />
             </a>
             <a href="https://www.linkedin.com/in/romeo-agyemang-1396ba358" target="_blank" rel="noopener noreferrer"
-               className="text-gray-600 hover:text-gray-900 transition-colors duration-200">
+               className="text-white hover:text-gray-900 transition-colors duration-200">
               <Linkedin size={20} />
             </a>
             <a href="mailto:agyemangromeo74@gmail.com"
-               className="text-gray-600 hover:text-gray-900 transition-colors duration-200">
+               className="text-white hover:text-gray-900 transition-colors duration-200">
               <Mail size={20} />
             </a>
           </div>
