@@ -25,11 +25,11 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-20 bg-gray-50">
+    <section id="contact" className="py-20 bg-black">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Get In Touch</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <h2 className="text-4xl font-bold text-white mb-4">Get In Touch</h2>
+          <p className="text-xl text-white max-w-3xl mx-auto">
             Have a project in mind or just want to chat? I'd love to hear from you. 
             Let's create something amazing together!
           </p>
@@ -39,8 +39,8 @@ const Contact = () => {
           {/* Contact Information */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-semibold text-gray-900 mb-6">Let's Connect</h3>
-              <p className="text-gray-600 mb-8">
+              <h3 className="text-2xl font-semibold text-white mb-6">Let's Connect</h3>
+              <p className="text-white mb-8">
                 I'm always open to discussing new opportunities, interesting projects, 
                 or just having a conversation about technology and design.
               </p>
@@ -52,8 +52,8 @@ const Contact = () => {
                   <Mail className="w-6 h-6 text-blue-600" />
                 </div>
                 <div>
-                  <h4 className="text-lg font-medium text-gray-900">Email</h4>
-                  <p className="text-gray-600">agyemangromeo74@gmail.com</p>
+                  <h4 className="text-lg font-medium text-white">Email</h4>
+                  <p className="text-white">agyemangromeo74@gmail.com</p>
                 </div>
               </div>
 
@@ -62,8 +62,8 @@ const Contact = () => {
                   <Phone className="w-6 h-6 text-blue-600" />
                 </div>
                 <div>
-                  <h4 className="text-lg font-medium text-gray-900">Phone</h4>
-                  <p className="text-gray-600">+233509744732</p>
+                  <h4 className="text-lg font-medium text-white">Phone</h4>
+                  <p className="text-white">+233509744732</p>
                 </div>
               </div>
 
@@ -72,8 +72,8 @@ const Contact = () => {
                   <MapPin className="w-6 h-6 text-blue-600" />
                 </div>
                 <div>
-                  <h4 className="text-lg font-medium text-gray-900">Location</h4>
-                  <p className="text-gray-600">Accra, Ghana</p>
+                  <h4 className="text-lg font-medium text-white">Location</h4>
+                  <p className="text-white">Accra, Ghana</p>
                 </div>
               </div>
             </div>
@@ -103,11 +103,11 @@ const Contact = () => {
           </div>
 
           {/* Contact Form */}
-          <div className="bg-white rounded-2xl shadow-lg p-8">
+          <div className="bg-black rounded-2xl shadow-lg p-8">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label htmlFor="name" className="block text-sm font-medium text-white mb-2">
                     Name
                   </label>
                   <input
@@ -123,7 +123,7 @@ const Contact = () => {
                 </div>
                 
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label htmlFor="email" className="block text-sm font-medium text-white mb-2">
                     Email
                   </label>
                   <input
@@ -140,7 +140,7 @@ const Contact = () => {
               </div>
 
               <div>
-                <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
+                <label htmlFor="subject" className="block text-sm font-medium text-white mb-2">
                   Subject
                 </label>
                 <input
@@ -156,7 +156,7 @@ const Contact = () => {
               </div>
 
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+                <label htmlFor="message" className="block text-sm font-medium text-white mb-2">
                   Message
                 </label>
                 <textarea

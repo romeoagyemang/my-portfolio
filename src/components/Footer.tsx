@@ -3,12 +3,12 @@ import { Heart, Github, Linkedin, Mail } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-12">
+    <footer className="bg-black text-white py-12">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Brand & Description */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold">Romeo Agyemang</h3>
+            <h3 className="text-2xl font-bold text-white">Romeo Agyemang</h3>
             <p className="text-gray-300 leading-relaxed">
               Full-Stack Developer passionate about creating beautiful, functional, 
               and user-centered digital experiences.
@@ -17,7 +17,7 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div className="space-y-4">
-            <h4 className="text-lg font-semibold">Quick Links</h4>
+            <h4 className="text-lg font-semibold text-white">Quick Links</h4>
             <div className="space-y-2">
               {['Home', 'About', 'Projects', 'Skills', 'Contact'].map((item) => (
                 <button
